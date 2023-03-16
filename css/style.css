@@ -1,0 +1,432 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+.sneakyBuns{
+    display: none;
+}
+
+html{
+    font-size: 69.5%;
+}
+body{
+    padding-left: 20px;
+    margin-top: 20px;
+}
+strong{
+    font-weight: 900; 
+    color: white;
+}
+header{
+    width: 100%;
+    height: 110px;
+}
+header p a{
+    color: white;
+}
+header span>a{
+    color: rgg(0	167	0	);
+}
+header p{
+    text-align: center;
+    padding-top: 5px;
+}
+section.topnav{
+    width: 90%;
+    height: 50px;
+    float: left;
+}
+img.logo{
+    width: 8%;
+    float: left;
+}
+section.topnav{
+    width: 90%;
+    height: 40px;
+    float: left;
+}
+span.tip{
+    text-align: left;
+    float: left;
+    margin-left: 20px;
+    width: 65%;
+    color: gray;
+    font-size: 1.5rem;
+}
+ul.soclogos{
+    width: 25%;
+    height: 30px;
+    float: right;
+    color: lightgray;
+    font-size: 1.5rem;
+}
+ul.soclogos li{
+    width: 20px;
+    height: 20px;
+    float: left;
+    background: lightgrey;
+    margin-left: 5px;
+    color: gray;
+}
+li>span{
+    width: 10%;
+}
+span.follow{
+    width: 50px;
+    float: left;
+  
+}
+nav{
+    width: 90%;
+    height: 30px;
+    float: left;
+}
+nav li{
+    margin-left: 20px;
+    float: left;
+    font-size: 1.5rem;
+
+}
+nav ul{
+    width: 50%;
+    height: 50px;
+    float: left;
+}
+nav button{
+    background: darkslategray;
+    height: 25px;
+    width: 110px;
+    color: white;
+}
+nav div{
+    width: 30%;
+    height: 50px;
+    float: right;
+}
+nav ul>div{
+    width: 30%;
+    width: 50px;
+    float: left;
+}
+header p{
+    width: 100%;
+    height: 30px;
+    background: rgb(0	78	0)	;
+    color: white;
+    float: left;
+    font-size: 1.5rem;
+}
+main{
+    width: 75%;
+    height: 700px;
+    float: left;
+}
+main>section{
+    width: 60%;
+    height: 350px;
+    float: left;
+}
+h2{
+    width: 100%;
+    height: 50px;
+    font-size: 3rem;
+
+}
+em{
+    font-style: normal;
+    color: green;
+}
+main section img{
+    width: 95%;
+}
+main section p{
+    color: gray;
+    font-style: italic;
+    width: 90%;
+    font-size: 1rem;
+}
+section.lilSide{
+    width: 40%;
+    height: 700px;
+    float: left;
+}
+section.lilSide div{
+    width: 100%;
+    height: 100px;
+    float: left;
+    margin-bottom: 10px;
+}
+section.lilSide h3{
+    width: 100%;
+    margin-bottom: 5px;
+    font-size: 2rem;
+}
+section.lilSide img{
+    width: 30%;
+    height: 90px;
+    float: left;
+}
+section.lilSide h6{
+    width: 60%;
+    float: left;
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+section.lilSide span{
+    font-style: italic;
+    color: gray;
+    float: left;
+    margin-left: 10px;
+}
+section.bigSide{
+    width: 25%;
+    height: 800px;
+    float: left;
+    background-color: lightgray;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+aside{
+    width: 100%;
+    height: 100px;
+    float: left;
+    color: grey;
+    font-size: 2rem;
+    border-top: 5px solid gray;
+    border-bottom: 5px solid gray;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+aside a{
+    color: green;
+}
+section.bigSide section{
+    width: 100%;
+    height: 300px;
+    float: left;
+    background: white;
+}
+section.bigSide input, h6, p{
+    float: left;
+}
+form{
+    background: white;
+}
+form h3{
+    background: darkgreen;
+    color: white;
+    text-align: center;
+    height: 40px;
+    padding-top: 10px;
+    font-size: 1.5rem;
+
+}
+form h6{
+    width: 80%;
+    height: 20px;
+    font-size: 1.5rem;
+    padding-top: 3px;
+}
+form span{
+    clear: both;
+    display: block;
+    margin-left: 25px;
+    width: 90%;
+    padding-right: 5px;
+}
+form li{
+    background: white;
+    border-bottom: lightgray 2px solid;
+    height: 100px;
+}
+form input{
+    margin: 5px;
+}
+section.bigSide button{
+    width: 40%;
+    height: 30px;
+    background: green;
+    color: white;
+}
+form>input{
+    width: 50%;
+    height: 30px;
+}
+h6.newsletter{
+    background: white;
+    color: gray;
+    width: 100%;
+    float: left;
+    height: 80px;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 10px;
+}
+h6.newsletter a{
+    color: gray;
+}
+
+@media screen and (max-width: 1090px) {
+    .bigSide{
+        display: none;
+    }
+    .WN{
+        width: 100%;
+        height: 500px;
+        margin-left: 20%;
+    }
+    main section img{
+        width: 90%;
+    }
+
+    section.lilSide{
+        width: 100%;
+        clear: both;
+        float: left;
+        margin-top: 40px;
+    }
+    .lilSide h3{
+        margin-left: 50px;
+        font-size: 2.5rem;
+    }
+    section.lilSide div{
+        width: 50%;
+        height: 270px;
+        padding-left: 50px;
+    }
+    .lilSide span{
+        float: left;
+        clear: both;
+    }
+    section.lilSide img{
+        width: 70%;
+        height: 200px;
+    }
+    header p{
+        height: 70px;
+    }
+}
+@media screen and (max-device-width: 1090px) {
+    .bigSide{
+        display: none;
+    }
+    .WN{
+        width: 100%;
+        height: 500px;
+        margin-left: 20%;
+    }
+    main section img{
+        width: 90%;
+    }
+
+    section.lilSide{
+        width: 100%;
+        clear: both;
+        float: left;
+        margin-top: 40px;
+    }
+    .lilSide h3{
+        margin-left: 50px;
+        font-size: 2.5rem;
+    }
+    section.lilSide div{
+        width: 50%;
+        height: 270px;
+        padding-left: 50px;
+    }
+    .lilSide span{
+        float: left;
+        clear: both;
+    }
+    section.lilSide img{
+        width: 70%;
+        height: 200px;
+    }
+    header p{
+        height: 70px;
+    }
+}
+@media screen and (max-width:990px) {
+    nav li{
+        display: none;
+    }
+    nav div{
+        display: none;
+    }
+    .sneakyBuns{
+        display:inline !important
+    }
+    
+}
+@media screen and (max-device-width:990px) {
+    nav li{
+        display: none;
+    }
+    nav div{
+        display: none;
+    }
+    .sneakyBuns{
+        display:inline !important
+    }
+    
+}
+@media screen and (max-width:800px){
+    section.topnav{
+        display: none;
+    }
+    section.lilSide div{
+        width: 100%;
+        height: 270px;
+        padding-left: 50px;
+    }
+    section.lilSide{
+        margin-top: 0px;
+    }
+    .lilSide span{
+        float: left;
+        clear: both;
+    }
+    section.lilSide img{
+        width: 70%;
+        height: 200px;
+    }
+    .WN{
+        height: 400px;
+    }
+    main section img{
+        padding-top: 30px;
+    }
+}
+@media screen and (max-device-width:800px){
+    section.topnav{
+        display: none;
+    }
+    section.lilSide div{
+        width: 100%;
+        height: 270px;
+        padding-left: 50px;
+    }
+    section.lilSide{
+        margin-top: 0px;
+    }
+    .lilSide span{
+        float: left;
+        clear: both;
+    }
+    section.lilSide img{
+        width: 70%;
+        height: 200px;
+    }
+    .WN{
+        height: 400px;
+    }
+    main section img{
+        padding-top: 30px;
+    }
+}
