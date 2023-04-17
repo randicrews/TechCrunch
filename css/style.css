@@ -5,12 +5,13 @@
     font-family: Arial, Helvetica, sans-serif;
     list-style: none;
     text-decoration: none;
-    color: black;
 }
 .sneakyBuns{
     display: none;
 }
-
+a{
+    color: black;
+}
 html{
     font-size: 69.5%;
 }
@@ -115,7 +116,7 @@ nav ul>div{
 }
 header p{
     width: 100%;
-    height: 30px;
+    height: auto;
     background: rgb(0	78	0)	;
     color: white;
     float: left;
@@ -152,12 +153,12 @@ main section p{
 }
 section.lilSide{
     width: 40%;
-    height: 700px;
+    height: auto;
     float: left;
 }
 section.lilSide div{
     width: 100%;
-    height: 100px;
+    height: auto;
     float: left;
     margin-bottom: 10px;
 }
@@ -168,7 +169,7 @@ section.lilSide h3{
 }
 section.lilSide img{
     width: 30%;
-    height: 90px;
+    height: auto;
     float: left;
 }
 section.lilSide h6{
@@ -250,7 +251,7 @@ form input{
 }
 section.bigSide button{
     width: 40%;
-    height: 30px;
+    height: auto;
     background: green;
     color: white;
 }
@@ -272,14 +273,10 @@ h6.newsletter a{
     color: gray;
 }
 
-@media screen and (max-width: 1090px) {
-    .bigSide{
-        display: none;
-    }
+@media screen and (max-width: 1250px) {
     .WN{
         width: 100%;
         height: 500px;
-        margin-left: 20%;
     }
     main section img{
         width: 90%;
@@ -308,63 +305,8 @@ h6.newsletter a{
         width: 70%;
         height: 200px;
     }
-    header p{
-        height: 70px;
-    }
-}
-@media screen and (max-device-width: 1090px) {
-    .bigSide{
-        display: none;
-    }
-    .WN{
-        width: 100%;
-        height: 500px;
-        margin-left: 20%;
-    }
-    main section img{
-        width: 90%;
-    }
 
-    section.lilSide{
-        width: 100%;
-        clear: both;
-        float: left;
-        margin-top: 40px;
-    }
-    .lilSide h3{
-        margin-left: 50px;
-        font-size: 2.5rem;
-    }
-    section.lilSide div{
-        width: 50%;
-        height: 270px;
-        padding-left: 50px;
-    }
-    .lilSide span{
-        float: left;
-        clear: both;
-    }
-    section.lilSide img{
-        width: 70%;
-        height: 200px;
-    }
-    header p{
-        height: 70px;
-    }
-}
-@media screen and (max-width:990px) {
-    nav li{
-        display: none;
-    }
-    nav div{
-        display: none;
-    }
-    .sneakyBuns{
-        display:inline !important
-    }
-    
-}
-@media screen and (max-device-width:990px) {
+@media screen and (max-device-width:1250px) {
     nav li{
         display: none;
     }
@@ -402,7 +344,7 @@ h6.newsletter a{
     main section img{
         padding-top: 30px;
     }
-}
+ }
 @media screen and (max-device-width:800px){
     section.topnav{
         display: none;
@@ -429,4 +371,4 @@ h6.newsletter a{
     main section img{
         padding-top: 30px;
     }
-}
+} 
