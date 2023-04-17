@@ -107,7 +107,7 @@ nav ul{
     float: left;
 }
 nav button{
-    background: darkslategray;
+    background: darkgreen;
     height: 25px;
     width: 110px;
     color: white;
@@ -255,11 +255,12 @@ form li{
 }
 form input{
     margin: 5px;
+    height: auto;
 }
 section.bigSide button{
     width: 40%;
     height: auto;
-    background: green;
+    background: darkgreen;
     color: white;
 }
 form>input{
