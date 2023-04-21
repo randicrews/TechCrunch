@@ -258,14 +258,14 @@ form input{
     height: auto;
 }
 section.bigSide button{
-    width: 40%;
+    width: 100px;
     height: auto;
     background: darkgreen;
     color: white;
 }
 form>input{
-    width: 50%;
-    height: 30px;
+    width: auto;
+    height: auto;
 }
 h6.newsletter{
     background: white;
